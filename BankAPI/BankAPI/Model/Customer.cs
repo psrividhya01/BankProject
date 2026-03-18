@@ -11,8 +11,6 @@
         public string City { get; set; }
         public string State { get; set; }
         public int Pincode { get; set; }
-
-        // Use the enums as property types
         public GenderType Gender { get; set; }
         public Status Status { get; set; }
         public DateTime CreatedAt { get;set;}
